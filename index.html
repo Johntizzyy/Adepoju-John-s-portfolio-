@@ -9,6 +9,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- Animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -70,21 +72,29 @@
       <div class="container" id="hero-section">
         <div class="row d-flex justify-content-center align-items-center">
           <!-- HERO IMAGE -->
-          <div class="col-md-8" id="hero-image">
-            <img src="assets/my-dp.jpg" alt="" />
+          <div class="col-md-8" id="hero-image" >
+            <img src="assets/my-dp.jpg" alt="" data-aos="fade-up"
+            data-aos-duration="1000"/>
           </div>
 
           <!-- HERO TEXTS -->
           <div class="col-md-8 pt-3" id="hero-text">
-            <h1 class="hero-header">Frontend developer from Nigeria</h1>
-            <p>
+            <h1 class="hero-header" data-aos="zoom-in"
+            data-aos-duration="1000">Frontend developer from Nigeria</h1>
+            <p data-aos="fade-up"
+            data-aos-duration="1000">
               I am <span>Adepoju John</span>, a passionate web developer with
               expertise in HTML, CSS, JavaScript, React and Python. I enjoy
               transforming ideas into functional user-friendly websites
               applications, focusing on both aesthetics and performance.
             </p>
-            <a href="" class="btn text border" id="cv">Download cv</a>
-            <a href="" class="btn border" id="mail">Send mail</a>
+            <a href="assets/Adepoju John Blessing Resume.pdf" class="btn text border" id="cv" data-aos="fade-up"
+            data-aos-duration="1000"
+            download="Resume.pdf"
+            >Download cv</a>
+
+            <a href="" class="btn border" id="mail" data-aos="fade-up"
+            data-aos-duration="1000">Send mail</a>
           </div>
 
           <!-- END OF HERO TEXT -->
@@ -95,20 +105,25 @@
     <div id="portfolio-section">
       <div class="container pt-3">
         <div class="d-flex justify-content-between align-items-center pt-5">
-          <h2>Featured projects</h2>
-          <span>2023-2024</span>
+          <h2 data-aos="fade-right"
+          data-aos-duration="1000">Featured projects</h2>
+          <span data-aos="fade-left"
+          data-aos-duration="1000">2023-2024</span>
         </div>
       </div>
 
       <!-- PROJECTS -->
       <div class="projects-section pt-5 pb-5">
-        <div class="project-div mt-3">
+        <div class="project-div mt-3" data-aos="fade-right"
+        data-aos-duration="800">
           <img src="assets/product-cart.png" alt="" />
         </div>
-        <div class="project-div mt-3">
+        <div class="project-div mt-3" data-aos="fade-up"
+        data-aos-duration="800">
           <img src="assets/github.png" alt="" />
         </div>
-        <div class="project-div mt-3">
+        <div class="project-div mt-3" data-aos="fade-left"
+        data-aos-duration="800">
           <img src="assets/savage.png" alt="" />
         </div>
 
@@ -130,16 +145,19 @@
 
           <div class="container">
             <!-- Project image -->
-            <div class="ext-project-img">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+            <div class="ext-project-img" data-aos="zoom-in"
+            data-aos-duration="1000">
+              <a href="" target="_blank" rel="noopener noreferrer">
                 <img src="assets/savage.png" alt="" />
               </a>
             </div>
 
             <!-- Project details -->
             <div class="ext-project-details">
-              <h3>Savage Brand</h3>
-              <p>
+              <h3 data-aos="fade-up"
+              data-aos-duration="1000">Savage Brand</h3>
+              <p data-aos="fade-up"
+              data-aos-duration="800"> 
                 This is a clothing brand website made using React js and with
                 the help of Animation on scroll library. It has ability to add
                 products to favorite and cart
@@ -147,9 +165,11 @@
 
               <ul>
                 <!-- <div> -->
-                <li>View project</li>
+                <li data-aos="fade-up"
+                data-aos-duration="800">View project</li>
                 <!-- <li>CSS</li> -->
-                <li>See code</li>
+                <li data-aos="fade-up"
+                data-aos-duration="800">See code</li>
                 <!-- </div> -->
 
                 <!-- <li>see code</li> -->
@@ -159,7 +179,7 @@
 
           <!-- WHATSAPP CLONE -->
 
-          <div class="container">
+          <div class="container pt-5">
             <!-- Project image -->
             <div class="ext-project-img">
               <a href="">
@@ -189,7 +209,8 @@
           </div>
 
           <!-- GITHUB USER SEARCH -->
-          <div class="container">
+          <div class="container" data-aos="fade-left"
+          data-aos-duration="800">
             <!-- Project image -->
             <div class="ext-project-img">
               <a href="">
@@ -220,7 +241,8 @@
 
           <!-- Portfolio -->
 
-          <div class="container pb-5">
+          <div class="container" data-aos="fade-right"
+          data-aos-duration="800">
             <!-- Project image -->
             <div class="ext-project-img">
               <a href="">
@@ -253,12 +275,15 @@
     </div>
 
     <div id="about-section">
-      <h1 class="container" id="about-sectionn">About me</h1>
+      <h1 class="container" id="about-sectionn" data-aos="zoom-in"
+      data-aos-duration="800">About me</h1>
       <div class="container pt-5">
         <div class="about-img">
-          <a href=""><img src="assets/about.jpg" alt="" /></a>
+          <a href=""><img src="assets/about.jpg" alt="" data-aos="fade-right"
+            data-aos-duration="800"/></a>
         </div>
-        <div class="about-text">
+        <div class="about-text" data-aos="fade-left"
+        data-aos-duration="800">
           <h2>Adepoju John Blessing</h2>
           <p>
             I am a creative web developer with expertise in HTML, CSS,
@@ -276,9 +301,9 @@
     <div id="contact">
       <div class="container">
         <div>
-          <h1>Let's make something together</h1>
+          <h1 data-aos="fade-left">Let's make something together</h1>
           <a href="mailto:adepojujohn566@gmail.com" target="_blank">
-            <h1>adepojujohn566@gmail.com</h1>
+            <h1 data-aos="fade-right">adepojujohn566@gmail.com</h1>
           </a>
         </div>
       </div>
@@ -288,10 +313,14 @@
       <div id="footer">
         <div class="social-links">
           <ul>
-            <li><a href="#">Github</a></li>
-            <li><a href="">Linkedin</a></li>
-            <li><a href="">X - Twitter</a></li>
-            <li><a href="">Facebook</a></li>
+            <li><a href="https://github.com/Johntizzyy">Github</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/adepoju-john-470bb6259/"
+                >Linkedin</a
+              >
+            </li>
+            <li><a href="https://x.com/JohnTizzy5">X - Twitter</a></li>
+            <li><a href="https://web.facebook.com/Johntizzzy/">Facebook</a></li>
           </ul>
         </div>
 
@@ -311,7 +340,7 @@
         <div class="contact">
           <ul>
             <li>
-              <a href="mailto:adepojujohn566@gmail.com"
+              <a href="mailto:adepojujohn566@gmail.com" 
                 >adepojujohn566@gmail.com</a
               >
             </li>
@@ -330,7 +359,12 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:800,
+      });
+    </script>
     <!-- <script src="main.js"></script> -->
   </body>
 </html>
