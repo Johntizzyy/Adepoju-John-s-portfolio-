@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Adepoju John's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+      <!-- NAVIGATION BAR -->
+
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="container-fluid d-flex justify-content-between order-bottom"
+        >
+          <a class="navbar-brand" href="#">Johntizzy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link activee p-3" href="#">Home</a
+                ><!-- aria-current="page" -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#portfolio-section">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#about-section">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- END OF NAVIGATION BAR -->
+
+      <!-- HERO SECTION -->
+      <div class="container" id="hero-section">
+        <div class="row d-flex justify-content-center align-items-center">
+          <!-- HERO IMAGE -->
+          <div class="col-md-8" id="hero-image">
+            <img src="assets/my-dp.jpg" alt="" />
+          </div>
+
+          <!-- HERO TEXTS -->
+          <div class="col-md-8 pt-3" id="hero-text">
+            <h1 class="hero-header">Frontend developer from Nigeria</h1>
+            <p>
+              I am <span>Adepoju John</span>, a passionate web developer with
+              expertise in HTML, CSS, JavaScript, React and Python. I enjoy
+              transforming ideas into functional user-friendly websites
+              applications, focusing on both aesthetics and performance.
+            </p>
+            <a href="" class="btn text border" id="cv">Download cv</a>
+            <a href="" class="btn border" id="mail">Send mail</a>
+          </div>
+
+          <!-- END OF HERO TEXT -->
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio-section">
+      <div class="container pt-3">
+        <div class="d-flex justify-content-between align-items-center pt-5">
+          <h2>Featured projects</h2>
+          <span>2023-2024</span>
+        </div>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="projects-section pt-5 pb-5">
+        <div class="project-div mt-3">
+          <img src="assets/product-cart.png" alt="" />
+        </div>
+        <div class="project-div mt-3">
+          <img src="assets/github.png" alt="" />
+        </div>
+        <div class="project-div mt-3">
+          <img src="assets/savage.png" alt="" />
+        </div>
+
+        <!-- <div class="project-div pt-3">
+          <img src="" alt="">
+        </div>
+        <div class="project-div pt-3">
+          <img src="" alt="">
+        </div>
+        <div class="project-div pt-3">
+          <img src="" alt="">
+        </div>
+      </div> -->
+
+        <!-- PROJECTS DETAILS -->
+
+        <div id="projects-details" class="pt-5 mt-5">
+          <!-- SAVAGE WEBSITE -->
+
+          <div class="container">
+            <!-- Project image -->
+            <div class="ext-project-img">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <img src="assets/savage.png" alt="" />
+              </a>
+            </div>
+
+            <!-- Project details -->
+            <div class="ext-project-details">
+              <h3>Savage Brand</h3>
+              <p>
+                This is a clothing brand website made using React js and with
+                the help of Animation on scroll library. It has ability to add
+                products to favorite and cart
+              </p>
+
+              <ul>
+                <!-- <div> -->
+                <li>View project</li>
+                <!-- <li>CSS</li> -->
+                <li>See code</li>
+                <!-- </div> -->
+
+                <!-- <li>see code</li> -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- WHATSAPP CLONE -->
+
+          <div class="container">
+            <!-- Project image -->
+            <div class="ext-project-img">
+              <a href="">
+                <img src="assets/whatsapp.png" alt="" />
+              </a>
+            </div>
+
+            <!-- Project details -->
+            <div class="ext-project-details">
+              <h3>Whatsapp Clone</h3>
+              <p>
+                This is a simple project whatsapp clone project using HTML,CSS
+                and JavaScript can has some default messages, which also have
+                the ability to send add to the message using the input
+              </p>
+
+              <ul>
+                <!-- <div> -->
+                <li>View project</li>
+                <!-- <li>CSS</li> -->
+                <li>See code</li>
+                <!-- </div> -->
+
+                <!-- <li>see code</li> -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- GITHUB USER SEARCH -->
+          <div class="container">
+            <!-- Project image -->
+            <div class="ext-project-img">
+              <a href="">
+                <img src="assets/github.png" alt="" />
+              </a>
+            </div>
+
+            <!-- Project details -->
+            <div class="ext-project-details">
+              <h3>Github User</h3>
+              <p>
+                This is a projects made using github api, to display any active
+                github users profile information such as thimbnail, username,
+                followind, followers, bio and anchor of repositories
+              </p>
+
+              <ul>
+                <!-- <div> -->
+                <li>View project</li>
+                <!-- <li>CSS</li> -->
+                <li>See code</li>
+                <!-- </div> -->
+
+                <!-- <li>see code</li> -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- Portfolio -->
+
+          <div class="container pb-5">
+            <!-- Project image -->
+            <div class="ext-project-img">
+              <a href="">
+                <img src="assets/whatsapp.png" alt="" />
+              </a>
+            </div>
+
+            <!-- Project details -->
+            <div class="ext-project-details">
+              <h3>Photographer & Videographer portfolio</h3>
+              <p>
+                This is a simple project whatsapp clone project using HTML,CSS
+                and JavaScript can has some default messages, which also have
+                the ability to send add to the message using the input
+              </p>
+
+              <ul>
+                <!-- <div> -->
+                <li>View project</li>
+                <!-- <li>CSS</li> -->
+                <li>See code</li>
+                <!-- </div> -->
+
+                <!-- <li>see code</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about-section">
+      <h1 class="container" id="about-sectionn">About me</h1>
+      <div class="container pt-5">
+        <div class="about-img">
+          <a href=""><img src="assets/about.jpg" alt="" /></a>
+        </div>
+        <div class="about-text">
+          <h2>Adepoju John Blessing</h2>
+          <p>
+            I am a creative web developer with expertise in HTML, CSS,
+            JavaScript, React and Python. I enjoy transforming ideas into
+            functional user-friendly websites applications, focusing on both
+            aesthetics and performance.
+          </p>
+
+          <!--*********** needs work *********** -->
+          <a href="" class="">See Projects</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div>
+          <h1>Let's make something together</h1>
+          <a href="mailto:adepojujohn566@gmail.com" target="_blank">
+            <h1>adepojujohn566@gmail.com</h1>
+          </a>
+        </div>
+      </div>
+
+      <!-- Links for footer -->
+
+      <div id="footer">
+        <div class="social-links">
+          <ul>
+            <li><a href="#">Github</a></li>
+            <li><a href="">Linkedin</a></li>
+            <li><a href="">X - Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-links">
+          <ul>
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li>
+              <a class="nav-link" href="#portfolio-section">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#about-sectionn">About</a>
+            </li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <ul>
+            <li>
+              <a href="mailto:adepojujohn566@gmail.com"
+                >adepojujohn566@gmail.com</a
+              >
+            </li>
+            <li><a href="tel:+2348149026505">+23481 4902 6505</a></li>
+            <li><a href="">Adepoju John</a></li>
+          </ul>
+        </div>
+
+        <div class="copy">
+          <a href="">&copy;Johntizzy 2024</a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="main.js"></script> -->
+  </body>
+</html>

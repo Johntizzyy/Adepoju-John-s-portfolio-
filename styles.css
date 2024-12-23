@@ -1,0 +1,341 @@
+:root {
+  --white: #f5f5f5;
+  --dark-grey: #bbb;
+  --black: #000;
+  --light-black: #312f2f;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background-color: #000;
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* .container{
+    height: 200vh;
+    position: fixed;
+}
+.container>*{
+    border: 2px solid red;
+    z-index: -2;
+} */
+ .navbar-nav
+ /* ,
+ .navbar-brand */
+ {
+    position: fixed;
+    top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius:20px ;
+ }
+.nav-link {
+    color: var(--dark-grey);
+}
+
+.nav-link:hover{
+    color: var(--white);
+}
+
+.nav-link.activee{
+    color: var(--white);
+
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  color: var(--white);
+  padding: 0 20px;
+}
+.navbar-brand:hover{
+    color: var(--white);
+}
+
+/* HERO SECTION */
+
+#hero-section {
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero-section > div > #hero-image {
+  width: 750px;
+  height: 500px;
+  margin-top: 8rem;
+  /* border: 20px solid red; */
+}
+#hero-section > div > #hero-image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/* HERO TEXTS */
+
+#hero-text {
+  width: 750px;
+  margin-top: 2rem;
+}
+#hero-text > h1 {
+  font-weight: 500;
+  color: var(--white);
+  /* color: #fff; */
+}
+#hero-text > p {
+  color: #949292;
+  font-size: 1rem;
+}
+#hero-text > p > span {
+  color: var(--white);
+}
+
+#hero-text > #cv {
+  color: var(--black);
+  background-color: var(--white);
+}
+#hero-text > #cv:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+#hero-text > #mail {
+  color: var(--white);
+}
+#hero-text > #mail:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* Portfolio section */
+#portfolio-section {
+  /* height: 100vh; */
+  background: var(--white);
+  margin-top: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: var(--black);
+}
+#portfolio-section > div > div > span {
+  color: var(--dark-grey);
+}
+
+/* PROJECT SECTION STYLING */
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.projects-section > .project-div {
+  /* border: 2px solid var(--dark-grey); */
+  /* border-radius: 10px; */
+  width: 350px;
+  height: 450px;
+  cursor: pointer;
+}
+.projects-section > .project-div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--dark-grey);
+}
+/* PROJECST DETAILS STYLING */
+
+#projects-details {
+  background-color: var(--black);
+  color: var(--white);
+  /* height: 100vh; */
+  width: 100%;
+}
+
+#projects-details > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 100px;
+}
+
+#projects-details > .container:nth-child(even) {
+  flex-direction: row-reverse;
+}
+#projects-details > .container > .ext-project-img {
+  /* border: 2px solid var(--white); */
+  width: 500px;
+  height: 350px;
+}
+
+#projects-details > .container > .ext-project-img:nth-child(2) img {
+  order: 2;
+}
+
+#projects-details > .container > .ext-project-img > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#projects-details > .container > .ext-project-details {
+  /* border: 2px solid var(--white); */
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+#projects-details > .container > .ext-project-details > p {
+  color: var(--dark-grey);
+  font-size: 1rem;
+}
+
+#projects-details > .container > .ext-project-details > ul {
+  display: flex;
+  justify-content: space-between;
+} /*
+#projects-details > .container > .ext-project-details>ul>div{
+    display: flex;
+
+} */
+#projects-details > .container > .ext-project-details > ul li {
+  list-style: none;
+  padding: 5px 10px;
+  font-size: 1rem;
+  /* color: var(--black);
+    background-color: var(--white); */
+  margin-right: 10px;
+  /* border-radius: 8px; */
+  border: 2px solid var(--dark-grey);
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+#projects-details > .container > .ext-project-details > ul li:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* About section */
+
+#about-section {
+  background: var(--white);
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  color: var(--black);
+}
+#about-section > .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#about-section > .container > .about-img {
+  width: 500px;
+  height: 400px;
+  /* border: 1px solid var(--white); */
+}
+#about-section > .container > .about-img > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+#about-section > .container > .about-text {
+  width: 400px;
+  height: 350px;
+  border: 1px solid var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+}
+#about-section > .container > .about-text > p {
+  color: var(--light-black);
+  font-size: 1rem;
+}
+
+#about-text > a {
+  color: var(--white);
+  background-color: var(--black);
+  border: 2px solid red;
+  font-size: 3rem;
+}
+
+
+#contact {
+  background: var(--black);
+}
+
+#contact > .container > div {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact > .container > div > a > h1> {
+  margin-right: 10rem;
+}
+#contact > .container > div > h1::before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  top: 20px;
+  right: 10px;
+}
+#contact > .container > div > h1 {
+  margin-left: 10rem;
+}
+
+/* Footer */
+#contact #footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact #footer > div > ul > li {
+  list-style: none;
+  font-size: 1rem;
+  cursor: pointer;
+  /* transition: all ease-in-out 1s; */
+}
+#contact #footer > div > ul > li >a{
+    font-size: 1rem;
+    cursor: pointer;
+    color:var(--dark-grey);
+    /* text-decoration: none; */
+  }
+  #contact #footer > div > ul > li >a:hover{
+    color: var(--white);
+  }
+#contact #footer > div > ul > li::after {
+  content: "";
+  width: 200px;
+  height: 10px;
+  background-color: #fff;
+}
+
+.copy a{
+    color: var(--dark-grey);
+    text-decoration: none;
+}
+
+/* 
+
+font = Helvetica
+whatsapp - https://johntizzyy.github.io/Whatsapp-Clone-using-HTML-CSS-and-JavaScript/
+github - https://johntizzyy.github.io/Github-user-profile/
+savage -  https://johntizzyy.github.io/Savage/
+rebel shot - https://johntizzyy.github.io/rebel-shot/
+*/
